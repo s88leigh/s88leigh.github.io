@@ -1,0 +1,133 @@
+
+.box 
+{background-image: url(assets/cork-board.png)
+}
+
+.jumbotron {
+height: 235px; 
+background-color: #f8f5f5;
+}
+
+
+.display-4 { 
+font: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #777777;  
+margin-left: 50px;
+}
+.lead {
+margin-left: 50px;
+}
+/* <a> link buttons */
+.btn {
+width: 100px;
+margin-bottom: 40px;
+margin-right: 10px;
+padding: 10px;
+text-align: center;
+background-color:  #ffffff;
+color: #777777;
+border: 2px solid #777777;
+float: right;
+
+}
+.main-content {
+clear: both;
+width: 1000px;
+height: 1000px;
+background-color: #ffffff;
+border-color: #dddddd;
+margin: 20px auto;
+padding: 20px;
+  
+}
+
+/* contact page */
+#main-content {
+clear: both;
+width: 1000px;
+height: 600px;
+background-color: #ffffff;
+border-color: #dddddd;
+margin: 20px auto;
+padding: 20px;
+font-family:'Georgia', Times, Times New Roman, serif;
+}
+/* page title */
+.title {
+width: 910px;
+height: 50px;
+margin: 20px;
+padding: 0 20px 20px 20px;
+color: #4aaaa5;
+border-bottom: 2px solid #777777;
+
+}
+
+img {
+margin: 30px;
+width: 200px;
+height: 225px;
+float: left;
+}
+
+#para {
+margin: 40px;
+}
+
+/* Portfolio */
+
+h5 {
+margin-left: 30px;
+}
+.project-links {
+margin-left: 30px;
+}
+
+/* Contact */
+.form-group {
+margin: 20px;
+
+}
+#name-input {
+width: 900px;
+height: 30px;
+}
+#email-input {
+width: 900px;
+height: 30px;
+}
+
+#message{
+width: 900px;
+height: 150Px;  
+}
+.submitBtn {
+width: 100px;
+margin-left: 30px;
+padding: 10px;
+text-align: center;
+background-color:  #ffffff;
+color: #777777;
+border: 2px solid #777777;
+
+}
+
+/* <==footer==> */
+
+#copyright {
+margin: auto;
+padding: 20px;
+
+} 
+.footer{
+/* position: absolute; */
+bottom: 0;
+width: 100%;
+height: 60px;
+background-color: #dfdede;
+/* border-top: 8px solid #4aaaa5; */
+text-align: center;
+color:#777777;
+font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
