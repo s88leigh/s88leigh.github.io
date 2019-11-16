@@ -17,23 +17,23 @@
 }
 #navbarText{
     width: 100px;
-    height: 2
-    margin-top: 90px;
+    height: 20px;
     margin-left: 200px;
 }
 .nav-link {
     width: 100px;
-    margin-top: 90px;
-    margin-left: 10px;
+    margin-top: 75px;
+    margin-left: 8px;
     text-align: center;
 
 }
 .card {
-    margin:20px auto;
+    margin:10px auto;
 }
 .card-text {
     margin:20px;
     padding: 20px;
+    font-family:'Georgia', Times, Times New Roman, serif;
 }
 .main-content {
     clear: both;
