@@ -19,8 +19,8 @@
 .navbar {
     height: 120px;
     margin-bottom: 20px;
-
 }
+
 #navbarText{
     width: 100px;
     height: 20px;
@@ -35,6 +35,7 @@
 }
 .card {
     margin:20px auto;
+    box-shadow: 5px 5px 5px 5px lightgray;
 
 }
 .card-text {
