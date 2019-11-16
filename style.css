@@ -12,8 +12,12 @@
     margin-left: 50px;
 }
 /* link buttons */
+.navbar {
+    height: 100px;
+}
 #navbarText{
     width: 100px;
+    height: 2
     margin-top: 90px;
     margin-left: 200px;
 }
@@ -23,6 +27,13 @@
     margin-left: 10px;
     text-align: center;
 
+}
+.card {
+    margin:20px auto;
+}
+.card-text {
+    margin:20px;
+    padding: 20px;
 }
 .main-content {
     clear: both;
@@ -60,8 +71,8 @@
 img {
     margin: 30px;
     width: 225px;
-    height: 325px;
-    float: left;
+    height: 425px;
+    
 }
 #para {
     margin: 40px;
@@ -125,7 +136,6 @@ h5 {
     width: 100%;
     height: 60px;
     background-color: #dfdede;
-    border-top: 8px solid #4aaaa5;
     text-align: center;
     color:#777777;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
