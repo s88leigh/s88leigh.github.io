@@ -17,7 +17,7 @@
 
 /* link buttons */
 .navbar {
-    height: 100px;
+    height: 120px;
     margin-bottom: 20px;
 
 }
@@ -34,7 +34,7 @@
 
 }
 .card {
-    margin:30px auto;
+    margin:20px auto;
 
 }
 .card-text {
