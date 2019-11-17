@@ -71,6 +71,9 @@ h5 {
 .project-links {
     margin-left: 30px;
 }
+#weather {
+    float: left;
+}
 
 
 /* Contact */
