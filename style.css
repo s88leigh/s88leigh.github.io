@@ -1,13 +1,10 @@
-.box 
-    {background-image: url(images/cork-board.png)
-}
-
+/* 
 .display-4 { 
     font: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #777777;  
     margin-left: 60px;
-}
+} */
 .lead {
    
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -62,19 +59,6 @@
     width: 300px;
     height: 425px;   
 }
-
-/* Portfolio */
-
-h5 {
-    margin-left: 30px;
-}
-.project-links {
-    margin-left: 30px;
-}
-#weather {
-    float: left;
-}
-
 
 /* Contact */
 .form-group {
