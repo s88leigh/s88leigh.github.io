@@ -57,7 +57,11 @@ h5 {
     width: 300px;
     height: 425px;   
 }
-
+/* portfolio */
+.port-link {
+    height: 35px;
+    padding: 10px;
+}
 /* Contact */
 #port-card-body {
   margin-bottom: 60px;
