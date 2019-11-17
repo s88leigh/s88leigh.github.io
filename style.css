@@ -1,10 +1,4 @@
-/* 
-.display-4 { 
-    font: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #777777;  
-    margin-left: 60px;
-} */
+
 .lead {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 60px;
@@ -63,26 +57,35 @@ h5 {
 }
 
 /* Contact */
+#port-card-body {
+  margin-bottom: 60px;
+}
+.form{
+    height:400px;
+    margin-bottom: 20px;
+}
 .form-group {
-    margin: 20px;
-    
+    margin-left: 30px;
 }
 #name-input {
     width: 850px;
     height: 30px;
+    margin-top: 0 20px; 
 }
 #email-input {
     width: 850px;
     height: 30px;
+    margin-top: 0 20px; 
 }
-
 #message{
     width: 850px;
-    height: 140Px;  
+    margin-top: 0 20px; 
 }
 .submitBtn {
     width: 100px;
+    height: 35px;
     margin-left: 30px;
+    margin-top: 0;
     padding: 10px;
     text-align: center;
     background-color:  #ffffff;
