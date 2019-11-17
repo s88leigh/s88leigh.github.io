@@ -1,4 +1,6 @@
-
+.display-4 {
+    margin-left:20px;
+}
 .lead {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 60px;
@@ -17,7 +19,7 @@ h5 {
 #navbarText{
     width: 100px;
     height: 20px;
-    margin-left: 200px;
+    margin-left: 380px;
 }
 .nav-link {
     width: 100px;
