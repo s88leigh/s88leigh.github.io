@@ -11,6 +11,10 @@
     color: #777777;  
     margin-left: 60px;
 }
+h5 {
+    margin-top: 10px;
+    margin-left: 40px;
+}
 
 /* link buttons */
 .navbar {
