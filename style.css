@@ -89,16 +89,7 @@ h5 {
     margin-top: 0 20px; 
 }
 .submitBtn {
-    width: 100px;
-    height: 35px;
-    margin-left: 30px;
-    margin-top: 0;
-    padding: 10px;
-    text-align: center;
-    background-color:  #ffffff;
-    color: #777777;
-    border: 2px solid #777777;
-  
+    margin-left: 30px;   
 }
 
 /* <==footer==> */
