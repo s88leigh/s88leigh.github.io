@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link  href="contact.php.html">
 
 </head>
 
@@ -58,19 +58,20 @@
 
                 <h1 class="title">Contact</h1>
 
-                <form id="form">
+                <form id="form" method="post" action="contact.php">
+                      
                     <div class="form-group">
                         <label for="name-input">Name:</label>
-                        <input type="text" class="form-control" id="name-input" placeholder=" Enter Name">
+                        <input type="text" class="form-control" id="name-input"  value="name">>
                     </div>
                     <div class="form-group">
                         <label for="email-input">Email address</label>
-                        <input type="email" class="form-control" id="email-input" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="email-input"  value="email address" placeholder="name@example.com">
                     </div>
 
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea class="form-control" id="message" rows="3"></textarea>
+                        <textarea class="form-control" id="message" rows="3" name="Message"></textarea>
                     </div>
                     <button type="submit" class="submitBtn btn-sm btn-primary">Submit</button>
                    
