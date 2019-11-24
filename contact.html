@@ -6,7 +6,7 @@
     <meta charset=UTF-8>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -14,7 +14,7 @@
 
 
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: rgb(241, 241, 241);">
+    <nav class="navbar navbar-light navbar-expand-lg container" style="background-color: rgb(241, 241, 241);">
         <span class="navbar-text">
             <h1 class="display-4">Sophie Leigh</h1>
             <p class="lead">Web Developer</p>
@@ -22,68 +22,82 @@
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>            
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
+
+        <div class="collapse navbar-collapse float-right" id="navbarText">
             <ul class="navbar-nav mr-auto">
-                
+
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html"> About</a>
+                    <a class="nav-link float-right" href="index.html"> About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html"> Portfolio</a>
+                    <a class="nav-link float-right" href="portfolio.html"> Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link float-right" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.linkedin.com/in/sophie-leigh-224182bb/">Linkedin</a>
+                    <a class="nav-link float-right" href="https://www.linkedin.com/in/sophie-leigh-224182bb/">Linkedin</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/s88leigh"> GitHub</a>
+                    <a class="nav-link float-right" href="https://github.com/s88leigh"> GitHub</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://s88leigh.github.io/Resume/"> Resume</a>
+                    <a class="nav-link float-right" href="https://s88leigh.github.io/Resume/"> Resume</a>
                 </li>
             </ul>
 
         </div>
     </nav>
-    <div class="card mb-3" style="max-width: 940px; max-height:450px">
-        <div class="row no-gutters">
-            <div id="port-card-body" class="card-body">
 
-                <h1 class="title">Contact</h1>
+    <main role="main" class="container">
 
-                <form id="form">
-                      
-                    <div class="form-group">
-                        <label for="name-input">Name:</label>
-                        <input type="text" class="form-control" id="name-input" placeholder="Your Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="email-input">Email address</label>
-                        <input type="email" class="form-control" id="email-input" placeholder="name@example.com">
-                    </div>
 
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea class="form-control" id="message" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="submitBtn btn-sm btn-primary">Submit</button>
-                   
-                </form>
+        <div class="card my-3 shadow" >
+            <div class="row no-gutters">
+                <div id="port-card-body" class="card-body">
+
+                    <h1 class="title text-left font-weight-bold">Contact</h1>
+
+                    <hr>
+
+                    <form id="form">
+
+                        <div class="form-group">
+                            <label for="name-input">Name:</label>
+                            <input type="text" class="form-control" id="name-input" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email-input">Email address</label>
+                            <input type="email" class="form-control" id="email-input" placeholder="name@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="submitBtn btn-sm btn-primary">Submit</button>
+
+                    </form>
+                </div>
+
             </div>
-
         </div>
-    </div>
 
-    <footer>
-        <div id="copyright">&copy Copyright</div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <footer>
+            <p class="copyright text-center" id="copyright">&copy Copyright</p>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
