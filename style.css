@@ -130,12 +130,12 @@ h5 {
     height: 425px;   
 }
 .card-text {
-    margin:20px;
+    margin-top: 0;
     margin-left: 0;
-    padding: 20px;
+    padding: 0 20px;
     padding-left: 0;
     font-family:'Georgia', Times, Times New Roman, serif;
-    color: #777777;
+    color: black;
 }
 h5 {
     margin-top: 10px;
