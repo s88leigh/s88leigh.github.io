@@ -13,50 +13,58 @@
 </head>
 
 
-<body> 
-    <nav class="navbar navbar-light navbar-expand-lg container" style="background-color: rgb(241, 241, 241);">
-        <span class="navbar-text">
+<body>
+  
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <div>
+          <span class="navbar-text">
             <h1 class="display-4">Sophie Leigh</h1>
             <p class="lead">Web Developer</p>
-        </span>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>            
-        </button>
-
-        <div class="collapse navbar-collapse float-right" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-
-                <li class="nav-item">
-                    <a class="nav-link float-right" href="index.html"> About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link float-right" href="portfolio.html"> Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link float-right" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link float-right" href="https://www.linkedin.com/in/sophie-leigh-224182bb/">Linkedin</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link float-right" href="https://github.com/s88leigh"> GitHub</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link float-right" href="https://s88leigh.github.io/Resume/"> Resume</a>
-                </li>
-            </ul>
-
+          </span>
         </div>
-    </nav>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav nav-pills ">
+    
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-dark" href="index.html"> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-dark" href="portfolio.html"> Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-dark" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+      <div class="row2 bg-secondary">
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link" style="color:white" href="https://www.linkedin.com/in/sophie-leigh-224182bb/">Linkedin</a>
+    
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:white" href="https://github.com/s88leigh"> GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:white" href="https://s88leigh.github.io/Resume/"> Resume</a>
+          </li>
+        </ul>
+      </div>
+  
 
-    <main role="main" class="container">
+    <div class="main bg-light">
 
         <div class="card my-3 shadow" >
             <div class="row no-gutters">
             <div id="port-card-body" class="card-body">
-                <h1 class="title text-left font-weight-bold">Projects</h1>
+                <h2 class="title text-left font-weight-bold">Projects</h2>
                 <hr>
                 <div class="card-deck">
                     <div class="card">
@@ -112,6 +120,23 @@
                             <a class="port-link" href="https://github.com/s88leigh/Day-Planner">GitHub Repository</a>
                         </div>
                     </div>
+
+                    <div class="card">
+                        <img src="assets\rewards-home.PNG" class="card-img-top" alt="rewards">
+                        <div class="card-body">
+                            <h5 class="card-title">Day Planner</h5>
+                            <p class="card-text">This fun interactive points-based app aims to motivate kids 12yrs and 
+                                younger to help with chores around the house.  When enough points, the child can choose a 
+                                reward of his/her choice. This app keeps track of points earned and used.
+                            </p>
+                        </div>
+
+                        <div class="card-footer">
+                            <a class="port-link" href="http://enigmatic-caverns-81757.herokuapp.com/kid.html">Rewards</a>
+                            <br>
+                            <a class="port-link" href="https://github.com/s88leigh/rewards">GitHub Repository</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,7 +145,7 @@
         <footer>
             <p class="copyright text-center" id="copyright">&copy Copyright</p>
         </footer>
-    </main>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
