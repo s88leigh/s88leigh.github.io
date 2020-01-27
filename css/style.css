@@ -1,0 +1,147 @@
+ body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+ }
+
+.intro2{
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+span {
+    font-size: 50px;
+}
+h5 {
+    margin-top: 10px;
+    margin-left: 40px;  
+} 
+header {
+    background: light gray;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+/* global*/
+.container{
+    margin-top: 20px;
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+    background-color: #ffff;
+}
+.title-icon{
+    text-align: center;
+    padding: 20px;
+}
+#left-container {
+    margin: 30px;
+    width: 45%;
+    float: left;
+    height: 250px;
+    border: 30px solid #7dc6f0;
+}
+#right-container{
+    margin: 30px;
+    width: 45%;
+    float: left;
+    height: 250px;
+    border: 30px solid #7dc6f0;
+}
+#boxes {
+    margin-top: 20px;
+
+   
+}
+#boxes .box{
+    float:left;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+}
+#boxes .box img{
+    width: 60px;
+}
+
+.card {
+    margin: 30px;
+}
+
+.card-img {
+    margin: 40px;
+    width: 300px;
+    height: 425px;   
+}
+.card-text {
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0 20px;
+    padding-left: 0;
+    color: black;
+}
+h5 {
+    margin-top: 10px;
+    margin-left: 0; 
+} 
+
+.row2 {
+    padding: 10px;
+    
+}
+
+#fullname{
+    float: left;  
+    color:#7dc6f0;
+    margin-left: 40px;
+    margin-bottom: 0;
+    margin-top:10px;
+}
+
+a:hover{
+    color:#7dc6f0;
+}
+ .nav-link{
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    
+ }
+ #showcase {
+     min-height: 300px;
+     background: url(../images/comp.PNG) no-repeat;
+     align-content: center;
+ 
+ }
+ #motto {
+     margin-left: 420px;
+     padding-top: 35px;
+     color:darkgray;
+ }
+ 
+ .card-img-top {
+     height: 150px;
+ }
+
+ .card-home {
+     width: 90%;
+     margin: auto;
+ }
+ footer{
+    background: darkgray;
+     padding: 20px;
+     color:white;
+
+ }
+ @media(max-width: 768px){
+section #branding2,
+section nav, 
+section nav li,
+section #motto,
+#boxes .box,
+section img,
+section #left-container,
+section #right-container{
+     float: none;
+     text-align: center;
+     width: 100%;
+ }
+ }
