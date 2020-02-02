@@ -129,13 +129,14 @@ a:hover{
     background: darkgray;
      padding: 20px;
      color:white;
-
  }
+ 
  @media(max-width: 768px){
 section #branding2,
 section nav, 
 section nav li,
-#showcase #motto,
+section #showcase,
+h3 #motto,
 #boxes .box,
 section img,
 section #left-container,
