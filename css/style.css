@@ -1,148 +1,164 @@
- body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.5;
- }
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+}
 
-.intro2{
-    margin-left: 10%;
-    margin-bottom: 50px;
+.intro2 {
+  margin-left: 10%;
+  margin-bottom: 50px;
 }
 span {
-    font-size: 50px;
+  font-size: 50px;
 }
 h5 {
-    margin-top: 10px;
-    margin-left: 40px;  
-} 
+  margin-top: 10px;
+  margin-left: 40px;
+}
 header {
-    background: light gray;
-    padding-top: 30px;
-    min-height: 70px;
+  background: light gray;
+  padding-top: 30px;
+  min-height: 70px;
 }
 
 /* global*/
-.container{
-    margin-top: 20px;
-    width: 80%;
-    margin:auto;
-    overflow:hidden;
-    background-color: #ffff;
+.container {
+  margin-top: 20px;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #ffff;
 }
-.title-icon{
-    text-align: center;
-    padding: 20px;
+.title-icon {
+  text-align: center;
+  padding: 20px;
 }
 #left-container {
-    margin: 30px;
-    width: 45%;
-    float: left;
-    height: 250px;
-    border: 30px solid #7dc6f0;
+  margin: 30px;
+  width: 45%;
+  float: left;
+  height: 250px;
+  border: 30px solid #7dc6f0;
 }
-#right-container{
-    margin: 30px;
-    width: 45%;
-    float: left;
-    height: 250px;
-    border: 30px solid #7dc6f0;
+#right-container {
+  margin: 30px;
+  width: 45%;
+  float: left;
+  height: 250px;
+  border: 30px solid #7dc6f0;
 }
 #boxes {
-    margin-top: 20px;
-
-   
+  margin-top: 20px;
 }
-#boxes .box{
-    float:left;
-    padding: 10px;
-    text-align: center;
-    width: 30%;
+#boxes .box {
+  float: left;
+  padding: 10px;
+  text-align: center;
+  width: 30%;
 }
-#boxes .box img{
-    width: 60px;
+#boxes .box img {
+  width: 60px;
 }
 
 .card {
-    margin: 30px;
+  margin: 30px;
+}
+/* Projects */
+#project {
+  margin-left: 40px;
+  margin-right: 40px;
+  float: left;
+  width: 320px;
+  height: 400px;
+}
+#row1-project {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  height: 400px;
+}
+#row2-project {
+  width: 100%;
+  height: 400px;
 }
 
 .card-img {
-    margin: 40px;
-    width: 300px;
-    height: 425px;   
+  margin: 40px;
+  width: 300px;
+  height: 425px;
 }
 .card-text {
-    margin-top: 0;
-    margin-left: 0;
-    padding: 0 20px;
-    padding-left: 0;
-    color: black;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 0 20px;
+  padding-left: 0;
+  color: black;
 }
 h5 {
-    margin-top: 10px;
-    margin-left: 0; 
-} 
+  margin-top: 10px;
+  margin-left: 0;
+}
 
 .row2 {
-    padding: 10px;
-    
+  padding: 10px;
 }
 
-#fullname{
-    float: left;  
-    color:#7dc6f0;
-    margin-left: 40px;
-    margin-bottom: 0;
-    margin-top:10px;
+#fullname {
+  float: left;
+  color: #7dc6f0;
+  margin-left: 40px;
+  margin-bottom: 0;
+  margin-top: 10px;
 }
 
-a:hover{
-    color:#7dc6f0;
+a:hover {
+  color: #7dc6f0;
 }
- .nav-link{
-    color:white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 40px;
-    
- }
- #showcase {
-     min-height: 300px;
-     background: url(../images/comp.PNG) no-repeat;
-     align-content: center;
- 
- }
- #motto {
-     margin-left: 420px;
-     padding-top: 35px;
-     color:darkgray;
- }
- 
- .card-img-top {
-     height: 150px;
- }
+.nav-link {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+}
+#showcase {
+  min-height: 300px;
+  background: url(../images/comp.PNG) no-repeat;
+  align-content: center;
+}
+#motto {
+  margin-left: 420px;
+  padding-top: 35px;
+  color: darkgray;
+}
 
- .card-home {
-     width: 90%;
-     margin: auto;
- }
- footer{
-    background: darkgray;
-     padding: 20px;
-     color:white;
- }
- 
- @media(max-width: 768px){
-section #branding2,
-section nav, 
-section nav li,
-section #showcase,
-h3 #motto,
-#boxes .box,
-section img,
-section #left-container,
-section #right-container{
-     float: none;
-     text-align: center;
-     width: 100%;
- }
- }
+.card-img-top {
+  height: 150px;
+}
+
+.card-home {
+  width: 90%;
+  margin: auto;
+}
+footer {
+  margin-top: 580px;
+  width: 100%;
+  height: 120px;
+  background: darkgray;
+  padding: 20px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  section #branding2,
+  section nav,
+  section nav li,
+  section #showcase,
+  h3 #motto,
+  #boxes .box,
+  section img,
+  section #left-container,
+  section #right-container {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+}
