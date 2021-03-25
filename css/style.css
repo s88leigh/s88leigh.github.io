@@ -164,7 +164,9 @@ footer {
   width: 100%;
   text-align: center;
 }
-
+#change-color {
+  margin-bottom: 0;
+}
 #footer-project {
   margin-top: 300px;
   width: 100%;
